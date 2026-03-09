@@ -1,0 +1,8 @@
+Why these specific lines?
+PyPDF2: This fixes the "No module named 'PyPDF2'" error currently stopping your deployment.
+
+python-docx: Necessary for the app to read .docx resume files.
+
+scikit-learn: Powers the AI math that calculates your "Match Score".
+
+nltk: Required for processing text and removing "stopwords" (common words like 'the' or 'and').
